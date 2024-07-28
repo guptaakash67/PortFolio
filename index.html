@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="96x96" href="/Portfolio/resources/img/code5.png">
+
+    <title>Akash Gupta</title>
+
+    <!-- bootstarp -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--------------- Custom AOS animation link ----------->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--------------- Custom font awesome cdn link ----------->
+    <script src="https://kit.fontawesome.com/05ac7671cc.js" crossorigin="anonymous"></script>
+
+
+    <!--------------- Custom themify icons configuration ----------->
+    <link rel="stylesheet" href="resources/themify icons/et-line/style.css">
+    <link rel="stylesheet" href="resources/themify icons/themify-icons.css ">
+
+
+    <!--------------- Custom bootstrap cdn link ----------->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!--------------- Custom cubeportfolio css file ----------->
+    <link rel="stylesheet" href="resources/cube config/cubeportfolio.min.css">
+
+    <!--------------- Custom cubeportfolio js file ----------->
+    <script defer src="resources/cube config/jquery.cubeportfolio.min.js"></script>
+
+    <!--------------- Custom skills progress bar Js file ----------->
+    <script defer src="resources/Animated Circle/circle-progress.js"></script>
+
+    <!--------------- Custom CSS file ----------->
+    <link rel="stylesheet" href="resources/stylesheets/style.css">
+
+    <!--------------- Custom CSS file ----------->
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+
+    <div id="">
+        <div id="status">&nbsp;</div>
+    </div>
+
+    <div class="me" data-aos="slide-left" style="z-index:-9; position: absolute;">
+        <canvas></canvas>
+    </div>
+
+    <div class="mob-header">
+        <div class="d-flex">
+            <div class="navbar-brand">
+                <a href="#">
+                    <img src="resources/img/rsz_frontend-removebg-preview.png" alt="Loading...">
+                </a>
+            </div>
+            <button class="toggler-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+    </div>
+    <header class="header-left" id="navbar-collapse-toggle" data-aos="slide-right" data-aos-duration="500">
+        <div class="top">
+            <a href="">A</a>
+        </div>
+        <ul class="nav nav-menu">
+            <li>
+                <a href="#home" class="nav-link active" data-toggle="tooltip" title="Home">
+                    <i class="fa fa-user-o"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#about" class="nav-link" data-toggle="tooltip" title="About">
+                    <i class="fa fa-address-book-o"></i>
+                </a>
+            </li>
+            <li>
+                <a target="_blank"
+                    href="https://drive.google.com/file/d/1jLeRXVmPnch9ed2IWIpy72hX4eEfI4rO/view?usp=drivesdk"
+                    class="nav-link" data-toggle="tooltip" title="Resume">
+                    <i class="fa fa-file-word-o"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#I-do" class="nav-link" data-toggle="tooltip" title="What do I do?">
+                    <i class="fa fa-wpexplorer"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#projects" class="nav-link" data-toggle="tooltip" title="Work">
+                    <i class="fa fa-rss"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#contact" class="nav-link" data-toggle="tooltip" title="Contact">
+                    <i class="fa fa-volume-control-phone"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+
+        <!-- Banner section -->
+
+        <section class="banner" id="home">
+            <div class="top-fixed d-flex">
+                <div class="social">
+                    <a href="#">
+                        <a target=”_blank” href="https://www.facebook.com/people/Akash-Gupta/pfbid02mRwE7ComJ5fKBZk2cCFFw7yq6MPHGGEve9KEK6KqCZvtMvdRRYDVsvfURS58JGUhl/?mibextid=ZbWKwL"><i id="fb"
+                                class="fa fa-facebook" data-aos="slide-down" data-aos-duration="1500"></i></a>
+
+                        <a target=”_blank” href="https://www.instagram.com/tf.skky"><i id="insta"
+                                class="fa fa-instagram" data-aos="slide-down" data-aos-duration="1500"></i></a>
+
+                        <a target=”_blank” href="https://twitter.com/AkashGu42425241?t=o6n8tT7BMiNRH98Uw6D09A&s=08"><i id="tweet" class="fa fa-twitter"
+                                data-aos="slide-down" data-aos-duration="1500"></i></a>
+
+                        <a target=”_blank” href="https://www.linkedin.com/in/akash-gupta-478323232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/"><i id="link"
+                                class="fa fa-linkedin" data-aos="slide-down" data-aos-duration="1500"></i></a>
+
+                        <a href="https://github.com/guptaakash67" target = "_blank" class="bx bxl-github"><i class="fa fa-github"></i></a>
+
+                        <!-- <a target=”_blank” href=><i id="be" class="fa fa-behance" data-aos="slide-down"
+                                data-aos-duration="1500"></i></a>
+
+                        <a target=”_blank” href=><i id="dr" class="fa fa-dribbble" data-aos="slide-down"
+                                data-aos-duration="1500"></i></a> -->
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+
+                <div class="row full-screen align-items-center" data-aos="slide-right">
+
+                    <div class="col-lg-7">
+
+                        <div class="box">
+                            <h6>Hello, My name is</h6>
+                            <h1>Akash Gupta</h1>
+
+                            <p class="lead">
+                                Frontend Web Developer
+                            </p>
+
+                            <p class="desc">
+                                I'm a Frontend Developer from Mumbai, India and currently living in Bandra. I
+                                enjoy building frontend designs for small bussiness sites to big interactive web apps.
+                            </p>
+
+                            <div class="cv-btn">
+                                <a target="_blank" href="https://drive.google.com/file/d/1jLeRXVmPnch9ed2IWIpy72hX4eEfI4rO/view?usp=drivesdk" alt="resume">
+                                    Download CV</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="me" style="background: url(resources/img/wand4.png);" data-aos="slide-left"></div>
+
+        </section>
+    </main>
+
+    <br><br><br><br>
+
+    <!-- About section -->
+
+    <section id="about">
+        <div class="container">
+            <div class="seperated"></div>
+            <!--Border-->
+            <div class="row">
+                <div class="col-lg-4" data-aos="slide-right">
+                    <div class="about-me">
+                        <div class="img">
+                            <img src="resources/img/mypic.jpg" alt="Loading...">
+                        </div>
+                        <div class="nav social-icons justify-content-center">
+                            <a href="https://www.facebook.com/people/Akash-Gupta/pfbid02mRwE7ComJ5fKBZk2cCFFw7yq6MPHGGEve9KEK6KqCZvtMvdRRYDVsvfURS58JGUhl/?mibextid=ZbWKwL" target=”_blank”><i
+                                    class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/tf.skky" target=”_blank”><i
+                                    class="fa fa-instagram"></i></a>
+                            <a href=" https://twitter.com/AkashGu42425241?t=o6n8tT7BMiNRH98Uw6D09A&s=08" target=”_blank”><i
+                                    class="fa fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/akash-gupta-478323232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target=”_blank”><i
+                                    class="fa fa-linkedin"></i></a>
+                            <a href="https://github.com/guptaakash67" target = "_blank" class="bx bxl-github"><i class="fa fa-github"></i></a>
+                           
+                           <!-- <a href="https://in.pinterest.com/praffulkamble/" target=”_blank”><i
+                                    class="fa fa-pinterest"></i></a> -->
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <p>Frontend Developer</p>
+                        <h3>Akash Gupta</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 ml-auto" data-aos="slide-left">
+                    <div class="about-info">
+                        <div class="title text-white">
+                            <h3>About</h3>
+                        </div>
+                        <br><br>
+                        <div class="text-white">
+                           <p>
+                            Experienced Frontend Developer skilled in ReactJs, Redux, Php-Laravel, Rest APIs, JavaScript, HTML, CSS, Bootstrap, and Tailwind CSS. Proven ability to create responsive websites and e-commerce platforms. Adept at designing intuitive and user-friendly interfaces, ensuring seamless integration and high-quality web solutions. Dedicated to delivering exceptional user experiences and meeting client needs.
+                           </p>
+                        
+
+                        </div>
+
+                        <div class="info-list">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li>
+                                            <label>name:</label>
+                                            <span>Akash Gupta</span>
+                                        </li>
+                                        <li>
+                                            <label>Date of Birth:</label>
+                                            <span>3rd December 2002</span>
+                                        </li>
+                                        <li>
+                                            <label>age:</label>
+                                            <span>21 years </span>
+                                        </li>
+                                        <li>
+                                            <label>Hometown:</label>
+                                            <span>Mumbai</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li>
+                                            <label>phone:</label>
+                                            <span>+91 9324554085</span>
+                                        </li>
+                                        <li>
+                                            <label>email:</label>
+                                            <span>connect.guptaakash@gmail.com</span>
+                                        </li>
+                                        <li>
+                                            <label>freelance:</label>
+                                            <span>Available</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <br><br><br><br>
+    <!-- About Section end -->
+
+    <section id="I-do">
+        <div class="container">
+            <div class="seperated"></div>
+            <!--Border-->
+            <div class="title text-white">
+                <h3>What do I do?</h3>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-lg-4" data-aos="slide-right" data-aos-duration="1000">
+                    <div class="box1">
+                        <i class="icon icon-mobile"></i>
+                        <div class="content text-white">
+                            <br>
+                            <h5>Frontend Development</h5>
+                            <p>I can build frontend designs using HTML, CSS, Javascript, ReactJs, Redux & NextJs with help of preprocessors
+                                like SASS and CSS frameworks like Bootstrap & Tailwind. I can build fully
+                                optimized frontend templates.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="flip-down" data-aos-duration="1000">
+                    <div class="box1">
+                        <i class="icon icon-desktop"></i>
+                        <p class='progress'>In Progress...</p>
+                        <div class="content text-white">
+                            <br>
+                            <h5>Backend Development</h5>
+                            <p>I can build the backend of a website using Node Js, Express Js and MongoDB. I didn't do a
+                                complete project on the MERN stack, I'm still learning... </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="slide-left" data-aos-duration="1000">
+                    <div class="box1">
+                        <i class="icon icon-target"></i>
+                        <p class='progress'>In Progress...</p>
+                        <div class="content text-white">
+                            <br>
+                            <h5>SEO Marekting</h5>
+                            <p>Just like Backend Development I'm learning Digital Marketing too. Search Engine
+                                Marketing(SEM) and Search Engine Optimization(SEO) are the main focus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+
+    </section>
+
+    <!---------------Project Section --------------------->
+
+    <section class="mh-work" id="projects">
+        <div class="container">
+            <div class="seperated"></div>
+            <div class="row">
+                <div class="section-title title col-sm-12">
+                    <h3>My Work</h3>
+                    <br><br><br>
+                </div>
+
+                <div class="mh-project-gallery col-sm-12" id="project-gallery">
+                    <div class="portfolio-container row">
+                        <div class="grid-item col-md-6 user-interface">
+                            <a target="_blank" href="https://risingsunfootballacademy.netlify.app/">
+                                <figure>
+                                    <img src="projectimg/rsfa.jpg" alt="">
+                                    <figcaption class="fig-caption">
+                                        <h5 class="mh-title">Football academy website(sponsor)</h5>
+                                        <span class="sub-title">HTML, CSS and Javascript</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+
+
+                        <div class="grid-item col-md-6 user-interface">
+                            <a target="_blank" href="https://react-e-commerce-site-rose.vercel.app/">
+                                <figure>
+                                    <img src="projectimg/ecr.jpg" alt=""  style="width: 30; height: 40;">
+                                    <figcaption class="fig-caption">
+                                        <h5 class="mh-title">Ecommerce Website</h5>
+                                        <span class="sub-title">HTML, CSS, Javascript and ReactJs </span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="grid-item col-md-6 branding">
+                            <a target="_blank" href="https://currencyconverterccr.netlify.app/">
+                                <figure>
+                                    <img src="projectimg/ccc.jpg" alt="">
+                                    <figcaption class="fig-caption">
+                                        <h5 class="mh-title">Currency Converter</h5>
+                                        <span class="sub-title">HTML, CSS, Javascript and ExcahngeRate-API</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="grid-item col-md-6 ui-mockup">
+                            <a target="_blank" href="https://countdowntimerccr.netlify.app/">
+                                <figure>
+                                    <img src="projectimg/cd.jpg" alt="">
+                                    <figcaption class="fig-caption">
+                                        <h5 class="mh-title">Countdown Timer</h5>
+                                        <span class="sub-title">HTML, CSS, Javascipt</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- <div class="grid-item col-md-6 user-interface">
+                            <a target="_blank" href="https://kamble-prafful.github.io/music-player/">
+                                <figure>
+                                    <img src="resources/img/ss/Music-player/music2.png" alt="">
+                                    <figcaption class="fig-caption">
+                                        <h5 class="mh-title">Music Player</h5>
+                                        <span class="sub-title">Vanilla Javascript</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="grid-item col-md-6 user-interface">
+                            <a href="#" id="portfolio">
+                                <figure>
+                                    <img src="resources/img/clout3.png" alt="">
+                                    <figcaption class="fig-caption">
+                                        <h5 class="mh-title">Portfolio</h5>
+                                        <span class="sub-title">HTML, SASS, Javascript, Jquery, Bootstrap</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div> -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mh-work" id="projects">
+        <div class="container">
+            <div class="seperated"></div>
+            <div class="row">
+                <div class="section-title title col-sm-12">
+                    <h3>Experience</h3>
+                    <br><br><br>
+                </div>
+
+                <div class="mh-project-gallery col-sm-12" id="project-gallery">
+                    <div class="portfolio-container row">
+                        <div class="grid-item col-md-6 user-interface">
+                            <a target="_blank" href="cv/Reknot CompletionLetter.pdf">
+                                <figure>
+                                    <img src="cv/reknot.jpg" alt="">
+                                    <figcaption class="fig-caption">
+                                        <h5 class="mh-title"</h5>
+                                        <span class="sub-title"></span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        
+
+                        <div class="grid-item col-md-6 user-interface">
+                            <a target="_blank" href="cv/tech-a-intern completion+lor.pdf">
+                                <figure>
+                                    <img src="cv/tech-a-intern.jpg" alt="">
+                                    <figcaption class="fig-caption">
+                                        <h5 class="mh-title"></h5>
+                                        <span class="sub-title"> </span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                            <a target="_blank" href="cv/congorise.jpg">
+                                <figure>
+                                    <img src="cv/congorise.jpg" alt="">
+                                    <figcaption class="fig-caption">
+                                        <h5 class="mh-title"></h5>
+                                        <span class="sub-title"> </span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        </div>
+                        
+
+        </section>
+
+
+    <section class="mh-work" id="projects">
+        <div class="container">
+            <div class="seperated"></div>
+            <div class="row">
+                <div class="section-title title col-sm-12">
+                    <h3>Certification</h3>
+                    <br><br><br>
+                </div>
+
+                <div class="mh-project-gallery col-sm-12" id="project-gallery">
+                    <div class="portfolio-container row">
+                        <div class="grid-item col-md-6 user-interface">
+                            <a target="_blank" href="https://drive.google.com/file/d/1vQkNmil4lEFUFz8tDkbmo-_Dn19UiQZi/view?usp=drivesdk">
+                                <figure>
+                                    <img src="cv/masteringj-javascript-fundamentals.jpg" alt="">
+                                    <figcaption class="fig-caption">
+                                        <h5 class="mh-title"</h5>
+                                        <span class="sub-title"></span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        
+
+                        <div class="grid-item col-md-6 user-interface">
+                            <a target="_blank" href="https://drive.google.com/file/d/111rtMJDSVIv6Pw8DP0NRKsFDJyTQN-Vl/view?usp=drivesdk">
+                                <figure>
+                                    <img src="cv/jetking.jpg" alt="">
+                                    <figcaption class="fig-caption">
+                                        <h5 class="mh-title"></h5>
+                                        <span class="sub-title"> </span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        </div>
+                        
+
+        </section>
+
+
+
+    <!-- Education and Skills Section -->
+
+    <section class="mh-skills" id="skills">
+        <div class="container">
+            <div class="seperated"></div>
+            <div class="row">
+                <div class="col-md-6" data-aos="slide-right">
+                    <div class="resume-box">
+                        <div class="title text-white">
+                            <h3>Education & Skills</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <ul class="education-box">
+                                    <li>
+                                        <span>2022-2025</span>
+                                        <h6> SES yadavrao tasgaonkar institute of engineering & technology<br>(Mumbai University)</h6>
+                                        <p class="bachelor">Bachelor's of engineering in Computer engineering</p>
+                                    </li>
+                                    <li>
+                                        <span>2022</span>
+                                        <h6>Government polytechnic mumbai</h6>
+                                        <p>Diploma in information technology</p>
+                                    </li>
+                                    <li>
+                                        <span>2019</span>
+                                        <h6>IES New English School</h6>
+                                        <p>SSC</p>
+                                    </li>
+                                    <br>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            
+                         
+                <div class="col-md-6">
+                    <div class="mh-professional-skills">
+                        <h3>Skills</h3>
+                         
+                         <ul class="mh-professional-progress">
+                            <li>
+                                <div class="mh-progress" data-progress="95">
+                                    <div class="title-skills">Technical Skills</div>
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="mh-progress" data-progress="90">
+                                    <div class="title-skills">Team Work</div>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="mh-progress" data-progress="80">
+                                    <div class="title-skills">Communication</div>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="mh-progress" data-progress="75">
+                                    <div class="title-skills">Management</div>
+                                </div>
+
+                            </li> 
+                                  
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="seperated"></div>
+            <div class="row">
+                <div class="col-lg-5" data-aos="slide-right">
+                    <div class="contact-info">
+                        <h4>What's your story? Get in touch</h4>
+                        <p class="text-white">
+                            Always available for freelancing if the right projects comes along, Feel free to contact me.
+                        </p>
+                        <ul>
+                            <li class="media">
+                                <i class="fa fa-map"></i>
+                                <span class="media-body">
+                                   1B/308 Maharashtra nagar, government colony bandra mumbai-51
+                                </span>
+                            </li>
+
+                            <li class="media">
+                                <i class="fa fa-envelope"></i>
+                                <span class="media-body">
+                                    connect.guptaakash@gmail.com
+                                </span>
+                            </li>
+
+                            <li class="media">
+                                <i class="fa fa-map"></i>
+                                <span class="media-body">
+                                    +91 9324554085
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-7" data-aos="slide-left">
+                    <div class="contact-form">
+                        <h4>Say Something</h4>
+                        <form action="https://formspree.io/f/mbjwaknw" method="POST" id="contact-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="Name" placeholder="Name*" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" name="Email" placeholder="Email*" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input type="text" name="Subject" placeholder="Subject*" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea type="text" name="Message" placeholder="Your Message*" rows="5"
+                                            class="form-control"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="send">
+                                        <button class="btn btn-primary">Send Message</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="status">Message Sent !</div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <!-- <div class="seperated container"></div>
+    <br>
+    <div class="col-12 map">
+        <div class="google-map container" data-aos="zoom-in-up">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120717.2688854347!2d73.08929164579172!3d19.001441540162034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e83e1f23f23d%3A0xe3a106c431e3fd0a!2sPanvel%2C%20Navi%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1647243745683!5m2!1sen!2sin"
+                width="1100" height="332" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <br><br><br>
+            <div class="seperated"></div>
+        </div>
+    </div>
+    <br><br> -->
+
+    <!-- Footer Section -->
+
+    <footer class="footer text-white container-fluid">
+        <div class="copyright">
+            <p>Copyright &copy; 2024. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom AOS Animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script src="resources/cube config/jquery.cubeportfolio.min.js"></script>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.0/jquery-migrate.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/js/jquery.prettyPhoto.min.js"></script>
+
+    <script defer src="scrolltosmooth.pkgd.min.js"></script>
+
+    <script>
+        jQuery(function ($) {
+            "use strict";
+            $('#flat').cubeportfolio({
+                filters: '#flat',
+                layoutMode: 'mosaic',
+                sortByDimension: true,
+                mediaQueries: [{
+                    width: 1300,
+                    cols: 6,
+                }, {
+                    width: 1100,
+                    cols: 6,
+                }, {
+                    width: 920,
+                    cols: 6,
+                }, {
+                    width: 400,
+                    cols: 1,
+                    options: {
+                        gapHorizontal: 15,
+                        gapVertical: 15,
+                    }
+                }],
+                defaultFilter: '*',
+                animationType: 'fadeOutTop',
+                gapHorizontal: 0,
+                gapVertical: 0,
+                gridAdjustment: 'responsive',
+                caption: 'zoom',
+                lightboxDelegate: '.cbp-lightbox',
+                lightboxGallery: true,
+                lightboxTitleSrc: 'data-title',
+            });
+        }); 
+    </script>
+
+</body>
+
+</html>
